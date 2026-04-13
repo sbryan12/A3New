@@ -1,0 +1,21 @@
+{
+  "name": "a3new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbryan12/A3New.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sbryan12/A3New/issues"
+  },
+  "homepage": "https://github.com/sbryan12/A3New#readme"
+}

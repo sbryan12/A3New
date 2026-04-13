@@ -1,4 +1,4 @@
-//deployment url: https://a2-cis355-new.onrender.com/
+//deployment url: https://a3new.onrender.com/
 
 
 const http = require('http');
@@ -114,7 +114,7 @@ const server = http.createServer( (req, res) => {
             }
         );
     }
-    // will open the api url page that has the data
+    // will open the api url page that has the data -- now using mongodb instead of a dbfile
    else if(req.url ==='/api'){
         a3Collection.find({}).toArray()
         .then(results=>{
